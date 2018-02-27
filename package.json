@@ -1,0 +1,15 @@
+{
+  "name": "adonis-sendgrid-mail",
+  "version": "1.0.0",
+  "description": "AdonisJS SendGrid mail service provider",
+  "main": "index.js",
+  "keywords": [
+    "adonis",
+    "sendgrid"
+  ],
+  "author": "Mirza Brunjadze <brunjadzem@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "@sendgrid/mail": "^6.2.1"
+  }
+}
