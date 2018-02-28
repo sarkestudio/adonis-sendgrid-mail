@@ -23,5 +23,15 @@ module.exports = {
   | Index 1 - right
   |
   */
-  substitutionWrappers: ['%', '%']
+  substitutionWrappers: ['%', '%'],
+
+  /*
+  |--------------------------------------------------------------------------
+  | Sender Email
+  |--------------------------------------------------------------------------
+  |
+  | Default email address to send from
+  |
+  */
+  senderEmail: null
 }

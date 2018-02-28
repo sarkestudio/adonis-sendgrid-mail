@@ -9,7 +9,7 @@
   ],
   "author": "Mirza Brunjadze <brunjadzem@gmail.com>",
   "license": "MIT",
-  "peerDependencies": {
+  "dependencies": {
     "@sendgrid/mail": "^6.2.1"
   }
 }
