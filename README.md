@@ -6,6 +6,13 @@
 2. Copy configuration file:  
 `cp node_modules/adonis-sendgrid-mail/config/sendgrid.js config/sendgrid.js`
 3. Set `SENDGRID_API_KEY` property in `.env` file.
+4. In app.js: 
+```javascript
+const providers = [
+  (...),
+  'adonis-sendgrid-mail/providers/SendGridProvider'
+]
+```
 
 ### Usage
 This service exposes the same `send` and `sendMultiple` methods as [@sendgrid/mail](https://github.com/sendgrid/sendgrid-nodejs/tree/master/packages/mail) package.
